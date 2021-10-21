@@ -1,0 +1,9 @@
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp3.1/Service.deps.json
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp3.1/Service.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/bin/Debug/netcoreapp3.1/Service.pdb
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp3.1/Service.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp3.1/Service.pdb
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.AssemblyReference.cache
