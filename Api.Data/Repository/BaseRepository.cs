@@ -11,22 +11,22 @@ namespace Api.Data.Repository
   public class BaseRepository<T> : IRepository<T> where T : BaseEntity
   {
       protected readonly MyContext _context;
-      private DbSet<T> _Dataset;
+      private DbSet<T> _dataset;
       public BaseRepository(MyContext context)
       {
           _context = context;
-          _Dataset = _context.Set<T>();
+          _dataset = _context.Set<T>();
           
       }
     public async Task<bool> DeleteAsync(Guid id)
     {
         try
         {
-            var result = await _Dataset.SingleOrDefaultAsync(p => p.Id.Equals (id));
+            var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals (id));
              if (result == null)
             return false;
 
-            _Dataset.Remove(result);
+            _dataset.Remove(result);
             await _context.SaveChangesAsync();
             return true;
         }
@@ -46,7 +46,7 @@ namespace Api.Data.Repository
             item.Id = Guid.NewGuid();
         }   
         item.CreateAt = DateTime.UtcNow;
-        _Dataset.Add(item);
+        _dataset.Add(item);
 
         await _context.SaveChangesAsync();
       }
@@ -59,14 +59,14 @@ namespace Api.Data.Repository
     }
 
     public async Task<bool> ExistAsync (Guid id) {
-      return await _Dataset.AnyAsync (p => p.Id.Equals (id));
+      return await _dataset.AnyAsync (p => p.Id.Equals (id));
     }
 
     public async Task<T> SelectAsync(Guid id)
     {
       try
       {
-          return await _Dataset.SingleOrDefaultAsync (p => p.Id.Equals (id)); 
+          return await _dataset.SingleOrDefaultAsync (p => p.Id.Equals (id)); 
       }
       catch (Exception ex)
       {
@@ -79,7 +79,7 @@ namespace Api.Data.Repository
     {
       try
       {
-           return await _Dataset.ToListAsync();
+           return await _dataset.ToListAsync();
       }
       catch (Exception ex)
       {
@@ -91,7 +91,7 @@ namespace Api.Data.Repository
     public async Task<T> UpdateAsync(T item){
         try
         {
-            var result = await _Dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
+            var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
             if (result == null)
             return null;
 
