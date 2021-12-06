@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xPQzoYKLUa9P4nz0mvh20e4wFDxiqd2Oqd+C5Al7V9DUC4y7U4CJ5Qqc8ubOKH962njGaDGRulkbr0DxUhXh/A==",
+  "dgSpecHash": "WGIt5Qwj08AuuSKKOnuagAeISRMqKLnOZ2d0ABD1cYAKEgQQC/muuvCLzZRxWdbb1F0j4BBtANmfwd2fl5xCYA==",
   "success": true,
   "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/Service.csproj",
   "expectedPackageFiles": [
