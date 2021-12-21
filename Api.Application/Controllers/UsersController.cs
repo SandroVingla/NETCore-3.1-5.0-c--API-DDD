@@ -54,7 +54,7 @@ namespace Api.Application.Controllers{
 
        [HttpPost]
        public async Task<ActionResult> Post([FromBody] UserEntity user){
-           if(ModelState.IsValid){
+           if(!ModelState.IsValid){
                return BadRequest(ModelState);
            }
            try{
@@ -68,6 +68,24 @@ namespace Api.Application.Controllers{
            catch (ArgumentException e) {
                return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
            }
-       } 
+       }
+
+       [HttpPut]
+       public async Task<ActionResult> Put([FromBody] UserEntity user){
+           if(!ModelState.IsValid){
+               return BadRequest(ModelState);
+           }
+           try{
+               var result = await _service.Put (user);
+               if(result != null){
+                   return Ok (result);
+               }else {
+                   return BadRequest();
+               }
+           }
+           catch (ArgumentException e) {
+               return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
+           } 
+       }
     }
 }
