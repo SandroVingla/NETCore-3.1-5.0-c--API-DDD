@@ -24,7 +24,7 @@ namespace Api.Data.Repository
         {
             var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals (id));
              if (result == null)
-            return false;
+                return false;
 
             _dataset.Remove(result);
             await _context.SaveChangesAsync();
