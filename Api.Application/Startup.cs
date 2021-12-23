@@ -36,7 +36,26 @@ namespace application
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "application", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Title = "Curso de Api com AspNetCore 3.1 - na pratica", 
+                    Version = "v1",
+                    Description = "Arquitetura DDD",
+                    TermsOfService = new Uri("http://www.mfrinfo.com.br"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Sandro Souza",
+                        Email = "mfrinfo.com.br",
+                        Url = new Uri("http://mfrinfo.com.br")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Termo de licensa de uso",
+                        Url = new Uri("http://www.mfrinfo.com.br")
+                    }
+                
+                });
+
             });
         }
 
@@ -47,7 +66,10 @@ namespace application
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "application v1"));
+                app.UseSwaggerUI(c => {c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com AspNetCore 3.1");
+                c.RoutePrefix = string.Empty;
+                
+                });
             }
 
             app.UseRouting();
