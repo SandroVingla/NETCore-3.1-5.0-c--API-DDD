@@ -5132,8 +5132,8 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../Api.domain/Domain.csproj",
-      "msbuildProject": "../Api.domain/Domain.csproj"
+      "path": "../Api.Domain/Domain.csproj",
+      "msbuildProject": "../Api.Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5170,8 +5170,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.domain/Domain.csproj": {
-              "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.domain/Domain.csproj"
+            "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj": {
+              "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj"
             }
           }
         }
