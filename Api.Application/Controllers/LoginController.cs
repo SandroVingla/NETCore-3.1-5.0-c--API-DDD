@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using Api.Domain.Entities;
+using Api.Domain.Dtos;
 using Api.Domain.Interfaces.Service.User;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +12,7 @@ namespace Api.Application.Controllers
     public class LoginController : ControllerBase
     {
         [HttpPost]
-        public async Task<object> Login([FromBody] UserEntity userentity, [FromServices] IloginService service){
+        public async Task<object> Login([FromBody] LoginDto userentity, [FromServices] IloginService service){
             if(!ModelState.IsValid){
                 return BadRequest(ModelState);
             }
