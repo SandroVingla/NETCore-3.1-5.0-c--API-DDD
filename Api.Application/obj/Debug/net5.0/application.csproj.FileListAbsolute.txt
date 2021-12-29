@@ -59,3 +59,7 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Data.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/AutoMapper.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll

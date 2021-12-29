@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "CNJDzXmtDBuNvdEDLeMcyKEUnAi36/IzRC3r8eV9AYKbRJ+2AFNNgcPeiUdUqXwgLKsqS/9ae3o7nlK5EVkq2g==",
+  "dgSpecHash": "IBdWNKwB6Hoz1D2NiKxhgZN3nUgz4WE0+2tyf4qALuzLy9FrJHhMmIfkurdzF+AFcK2iN9Jitnxi1BRcbkAGaA==",
   "success": true,
   "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/sandrovingla/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/sandrovingla/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.0/microsoft.identitymodel.jsonwebtokens.6.15.0.nupkg.sha512",
+    "/Users/sandrovingla/.nuget/packages/microsoft.identitymodel.logging/6.15.0/microsoft.identitymodel.logging.6.15.0.nupkg.sha512",
+    "/Users/sandrovingla/.nuget/packages/microsoft.identitymodel.tokens/6.15.0/microsoft.identitymodel.tokens.6.15.0.nupkg.sha512",
+    "/Users/sandrovingla/.nuget/packages/system.identitymodel.tokens.jwt/6.15.0/system.identitymodel.tokens.jwt.6.15.0.nupkg.sha512",
+    "/Users/sandrovingla/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
