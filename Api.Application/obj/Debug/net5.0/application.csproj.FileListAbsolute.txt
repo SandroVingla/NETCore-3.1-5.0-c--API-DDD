@@ -63,3 +63,6 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
