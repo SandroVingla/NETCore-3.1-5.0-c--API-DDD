@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Api.CrossCutting.DependencyInjection;
 using Api.Domain.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -43,6 +45,30 @@ namespace application
                     .Configure(tokenConfigurations);
                 services.AddSingleton(tokenConfigurations);
 
+                services.AddAuthentication(authOptions =>
+                
+                {
+                    authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+                }).AddJwtBearer(bearerOptions =>
+                {
+                    var paramsValidation = bearerOptions.TokenValidationParameters;
+                    paramsValidation.IssuerSigningKey = signingConfigurations.Key;
+                    paramsValidation.ValidAudience = tokenConfigurations.Audience;
+                    paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
+                    paramsValidation.ValidateIssuerSigningKey = true;
+                    paramsValidation.ClockSkew = TimeSpan.Zero;
+
+                });
+
+                services.AddAuthorization(auth =>
+                {
+                    auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                                    .RequireAuthenticatedUser().Build());
+                });
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -65,6 +91,24 @@ namespace application
                         Url = new Uri("http://www.mfrinfo.com.br")
                     }
                 
+                });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "Entre com o Token Jwt",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+                    {
+                        new OpenApiSecurityScheme{
+                            Reference = new OpenApiReference {
+                                Id = "Bearer",
+                                Type = ReferenceType.SecurityScheme
+                            }
+                        }, new List<string>()
+                    }
                 });
 
             });

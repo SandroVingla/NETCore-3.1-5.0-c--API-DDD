@@ -59,7 +59,7 @@ namespace Api.Service.Services
           DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfigurations.Seconds);
           var handler = new JwtSecurityTokenHandler();
           string token = CreateToken(identity, createDate, expirationDate, handler);
-          return SuccessObject(createDate, expirationDate, token, user);
+          return SuccessObject(createDate, expirationDate, token, baseUser);
         }
       }
       else
@@ -80,7 +80,7 @@ namespace Api.Service.Services
       var token = handler.WriteToken(securityToken);
       return token;
     }
-    private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, LoginDto user)
+    private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, UserEntity user)
     {
       return new
       {
@@ -89,6 +89,7 @@ namespace Api.Service.Services
         expiration = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
         acessToken = token,
         userName = user.Email,
+        name = user.Name,
         message = "Usuário logado com sucesso."
       };
     }
