@@ -974,6 +974,7 @@
       },
       "Service/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "Data": "1.0.0",
           "Domain": "1.0.0"
         },

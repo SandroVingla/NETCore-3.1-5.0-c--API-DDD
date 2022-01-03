@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vdZPztihahYAe+i24D9VirBzhC3oQ1oTCYzjlkhYmM2rcEm3d54FHXwYu2ECiBhYEKGq6UmajF1G0l3cHJV33w==",
+  "dgSpecHash": "JSBa9aPtWrGr3KPvST+KSJ72xkDwSt4eNGgcX8YzgFEB42oF95VbqcY82F0DJ1uu6D2ZkIgz2KM5XI32rAw08g==",
   "success": true,
   "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [
