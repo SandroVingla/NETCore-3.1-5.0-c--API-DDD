@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
@@ -23,6 +26,8 @@
     <ProjectReference Include="..\Api.Data\Data.csproj" />
     <ProjectReference Include="..\Api.CrossCutting\CrossCutting.csproj" />
     <ProjectReference Include="..\Api.Domain\Domain.csproj" />
+    <!--<ProjectReference Include="..\Api.Application\Application.csproj" /> -->
+
   </ItemGroup>
 
 </Project>

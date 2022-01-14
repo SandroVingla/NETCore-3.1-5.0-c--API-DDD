@@ -8002,7 +8002,10 @@
       "CrossCutting >= 1.0.0",
       "Data >= 1.0.0",
       "Domain >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 3.1.6",
+      "Microsoft.Extensions.DependencyInjection >= 3.1.6",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "Pomelo.EntityFrameworkCore.MySql >= 3.1.1",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -8055,9 +8058,21 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.7.1, )"
+          },
+          "Pomelo.EntityFrameworkCore.MySql": {
+            "target": "Package",
+            "version": "[3.1.1, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
