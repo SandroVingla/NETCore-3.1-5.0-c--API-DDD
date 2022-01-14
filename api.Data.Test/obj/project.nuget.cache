@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+3PCMK6eWhTwIPnFLQqB/JbuL/007K7qPOxB5UCEHpbJZe01N+8fDkDlwspgqt/th2cBJhgcSL2zwjRqIYy+hA==",
+  "dgSpecHash": "CgVpWENvdS3FGHVX2zVOSdJ6DNJgGGL1qoDPNGjzlBNWiBsVRSD7TV856Z8DvbGtYPZ/2sv2S8p734V9Ws1kYg==",
   "success": true,
   "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data.Test/Api.Data.Test.csproj",
   "expectedPackageFiles": [
     "/Users/sandrovingla/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/sandrovingla/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/Users/sandrovingla/.nuget/packages/coverlet.collector/1.3.0/coverlet.collector.1.3.0.nupkg.sha512",
+    "/Users/sandrovingla/.nuget/packages/faker.netcore/1.0.2/faker.netcore.1.0.2.nupkg.sha512",
     "/Users/sandrovingla/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/sandrovingla/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/sandrovingla/.nuget/packages/microsoft.codecoverage/16.7.1/microsoft.codecoverage.16.7.1.nupkg.sha512",
