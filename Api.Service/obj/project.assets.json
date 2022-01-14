@@ -5329,8 +5329,8 @@
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../Api.Domain/Domain.csproj",
-      "msbuildProject": "../Api.Domain/Domain.csproj"
+      "path": "../Api.domain/Domain.csproj",
+      "msbuildProject": "../Api.domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5368,8 +5368,8 @@
             "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/Data.csproj": {
               "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/Data.csproj"
             },
-            "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj": {
-              "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj"
+            "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.domain/Domain.csproj": {
+              "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.domain/Domain.csproj"
             }
           }
         }
