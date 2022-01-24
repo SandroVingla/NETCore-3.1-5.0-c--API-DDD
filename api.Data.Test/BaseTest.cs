@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api.Data.Test
 {
-    public class BaseTest
+    public abstract class BaseTest
     {
         public BaseTest()
         {

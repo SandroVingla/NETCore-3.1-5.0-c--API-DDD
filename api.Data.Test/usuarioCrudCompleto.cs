@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Api.Data.Context;
 using Api.Data.Implementation;
@@ -39,7 +40,36 @@ namespace api.Data.Test
                 Assert.Equal(_entity.Name, _registroCriado.Name);
                 Assert.False(_registroCriado.Id == Guid.Empty);
 
-            }
+                _entity.Name = Faker.Name.First();
+                var _registroAtualizado = await _repositorio.UpdateAsync(_entity);
+                
+                Assert.NotNull(_registroAtualizado);
+                Assert.Equal(_entity.Email, _registroAtualizado.Email);
+                Assert.Equal(_entity.Name, _registroAtualizado.Name);
+
+                var _registroExiste = await _repositorio.ExistAsync(_registroAtualizado.Id);
+                Assert.True(_registroExiste);
+
+                var _registroSelecionado = await _repositorio.SelectAsync(_registroAtualizado.Id);
+                Assert.NotNull(_registroSelecionado);
+                Assert.Equal(_registroAtualizado.Email, _registroSelecionado.Email);
+                Assert.Equal(_registroAtualizado.Name, _registroSelecionado.Name);
+
+                var _todosRegistro = await _repositorio.SelectAsync();
+                Assert.NotNull(_todosRegistro);
+                Assert.True(_todosRegistro.Count() > 1);
+
+                var _removeu = await _repositorio.DeleteAsync(_registroSelecionado.Id);
+                Assert.True(_removeu);
+
+                var _usuarioPadao = await _repositorio.FindByLogin("mfrinfo@mail.com");
+                Assert.NotNull(_usuarioPadao);
+                Assert.Equal("mfrinfo@mail.com", _usuarioPadao.Email);
+                Assert.Equal("Administrator", _usuarioPadao.Name);
+                
+
+
+            }  
         }
     }
 }
