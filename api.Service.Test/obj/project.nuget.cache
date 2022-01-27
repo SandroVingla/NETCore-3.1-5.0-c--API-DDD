@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H0orCGGAHJ1IF0duhHE2UiU9KzTeYAmWtUqK1WCgHU+XaOP1epLsfGCQX30+UP0WoBN4ihgtQfi8Hv+DC0NkLQ==",
+  "dgSpecHash": "N9bQjn5X/CYeGYVrAqVarioDsb52zdI22dgukgKn/8JIyYCsEuHZODCSaJ6t0bV4ptv75radKJYy+2no1Ig0Eg==",
   "success": true,
-  "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Service.Test/Api.Service.Test.csproj",
+  "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/Api.Service.Test.csproj",
   "expectedPackageFiles": [
     "/Users/sandrovingla/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/sandrovingla/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
