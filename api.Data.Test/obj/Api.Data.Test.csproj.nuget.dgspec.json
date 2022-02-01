@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/Api.Data.Test.csproj": {}
+    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data.Test/Api.Data.Test.csproj": {}
   },
   "projects": {
     "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/CrossCutting.csproj": {
@@ -76,14 +76,14 @@
         }
       }
     },
-    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/Api.Data.Test.csproj": {
+    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data.Test/Api.Data.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/Api.Data.Test.csproj",
+        "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data.Test/Api.Data.Test.csproj",
         "projectName": "Api.Data.Test",
-        "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/Api.Data.Test.csproj",
+        "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data.Test/Api.Data.Test.csproj",
         "packagesPath": "/Users/sandrovingla/.nuget/packages/",
-        "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/obj/",
+        "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
