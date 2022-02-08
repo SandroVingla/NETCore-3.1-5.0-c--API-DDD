@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application.Test/Api.Application.Test.csproj": {}
+    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/Api.Application.Test.csproj": {}
   },
   "projects": {
-    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application.Test/Api.Application.Test.csproj": {
+    "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/Api.Application.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application.Test/Api.Application.Test.csproj",
+        "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/Api.Application.Test.csproj",
         "projectName": "Api.Application.Test",
-        "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application.Test/Api.Application.Test.csproj",
+        "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/Api.Application.Test.csproj",
         "packagesPath": "/Users/sandrovingla/.nuget/packages/",
-        "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application.Test/obj/",
+        "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
