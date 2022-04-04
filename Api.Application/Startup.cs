@@ -41,11 +41,11 @@ namespace application
               
                Environment.SetEnvironmentVariable("DB_CONNECTION", "Persist Security Info=True;Server=localhost;Port=3306;Database=dpAPI_Integration;Uid=root;Pwd=sandro777");
                Environment.SetEnvironmentVariable("DATABASE", "MYSQL");
-                Environment.SetEnvironmentVariable("DATABASE", "MYSQL");
-                Environment.SetEnvironmentVariable("MIGRATION", "APLICAR");
-                Environment.SetEnvironmentVariable("Audience", "ExemploAudience");
-                Environment.SetEnvironmentVariable("Issuer", "ExemploIssuer");
-                Environment.SetEnvironmentVariable("Seconds", "10800");
+               Environment.SetEnvironmentVariable("DATABASE", "MYSQL");
+               Environment.SetEnvironmentVariable("MIGRATION", "APLICAR");
+               Environment.SetEnvironmentVariable("Audience", "ExemploAudience");
+               Environment.SetEnvironmentVariable("Issuer", "ExemploIssuer");
+               Environment.SetEnvironmentVariable("Seconds", "10800");
            }
 
             ConfigureService.ConfigureDependenciesService(services);
@@ -82,6 +82,7 @@ namespace application
                     paramsValidation.ValidAudience = Environment.GetEnvironmentVariable("Audience");
                     paramsValidation.ValidIssuer = Environment.GetEnvironmentVariable("Issuer");
                     paramsValidation.ValidateIssuerSigningKey = true;
+                    //paramsValidation.ValidateLifeTime = true;
                     paramsValidation.ClockSkew = TimeSpan.Zero;
 
                 });

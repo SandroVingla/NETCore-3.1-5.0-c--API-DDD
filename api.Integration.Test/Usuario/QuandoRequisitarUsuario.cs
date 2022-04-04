@@ -21,7 +21,7 @@ namespace api.Integration.Test.Usuario
         public async Task E_Possivel_Realizar_Crud_Usuario()
         {
             await AdicionarToken();
-            _name = Faker.Name.FullName();
+            _name = Faker.Name.First();
             _email = Faker.Internet.Email();
 
             var userDto = new UserDtoCreate()
@@ -38,7 +38,7 @@ namespace api.Integration.Test.Usuario
             Assert.Equal(HttpStatusCode.Created, response.StatusCode);
             Assert.Equal(_name, registroPost.Name);
             Assert.Equal(_email, registroPost.Email);
-            Assert.False(registroPost.Id == default(Guid));
+            Assert.True(registroPost.Id != default(Guid));
 
 
             //GetAll
