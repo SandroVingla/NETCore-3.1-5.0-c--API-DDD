@@ -6,11 +6,11 @@ namespace Api.Domain.Entities
     public class CepEntity : BaseEntity
     {
         [Required]
-        [MaxLength(2)]
+        [MaxLength(10)]
          public string Cep { get; set; }
 
         [Required]
-        [MaxLength(2)]
+        [MaxLength(60)]
         public string Logradouro { get; set; }
           
         [MaxLength(10)]

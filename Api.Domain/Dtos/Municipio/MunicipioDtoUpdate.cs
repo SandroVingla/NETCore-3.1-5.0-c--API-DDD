@@ -7,6 +7,7 @@ namespace Api.Domain.Dtos.Municipio
     {
         [Required(ErrorMessage = "Id é obrigatorio")]
         public Guid  Id { get; set; }
+        
         [Required(ErrorMessage = "Nome do municipio é obrigatorio")]
         [StringLength(60, ErrorMessage = "Nome do municipio deve ser no máximo {1} caractere.")]
         public string nome { get; set; }

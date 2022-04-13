@@ -23,7 +23,7 @@ namespace Api.CrossCutting.DependencyInjection
                 ); 
             }else{
                     servicecollection.AddDbContext<MyContext>(
-                    //options => options.UseSqlServer("Server=localhost;Initial Catalog=dpapi;MultipleActiveResultSets=true;User ID=sa;Password=Sandro777"),
+                    //options => options.UseSqlServer("Server=localhost;Initial Catalog=dpapi;MultipleActiveResultSets=true;User ID=sa;Password=Sandro777")
                     
                     options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"))
                 );
