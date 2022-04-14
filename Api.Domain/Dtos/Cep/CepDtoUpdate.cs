@@ -18,6 +18,5 @@ namespace Api.Domain.Dtos.Cep
         [Required(ErrorMessage = "Municipio é campo obrigatorio")]
         public Guid MunicipioId { get; set; }
 
-        public DateTime CreateAt { get; set; }
     }
 }
