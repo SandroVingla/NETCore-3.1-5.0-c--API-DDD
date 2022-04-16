@@ -8,7 +8,7 @@ namespace Api.Domain.Entities
         [Required]
         [MaxLength(2)]
 
-        public string sigla {get; set;}
+        public string Sigla {get; set;}
 
 
         [Required]
