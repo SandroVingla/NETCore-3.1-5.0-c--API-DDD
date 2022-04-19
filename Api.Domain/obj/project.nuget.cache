@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wVlrOFqN2gqaVKNAfaXvQdNfnNnTVWbxWaf0LX3pnBEN4x+sCMTl2yOVm+ZjNm6EUxYrOliHgnfRnNQ/5JFiEQ==",
+  "dgSpecHash": "IBdWNKwB6Hoz1D2NiKxhgZN3nUgz4WE0+2tyf4qALuzLy9FrJHhMmIfkurdzF+AFcK2iN9Jitnxi1BRcbkAGaA==",
   "success": true,
-  "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.domain/Domain.csproj",
+  "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj",
   "expectedPackageFiles": [
     "/Users/sandrovingla/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/sandrovingla/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.0/microsoft.identitymodel.jsonwebtokens.6.15.0.nupkg.sha512",

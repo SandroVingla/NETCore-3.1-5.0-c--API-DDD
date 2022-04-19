@@ -8,7 +8,7 @@ namespace Api.Domain.Entities
     {
         [Required]
         [MaxLength(60)]
-        public int Nome { get; set; }
+        public string Nome { get; set; }
 
         public int CodIBGE { get; set; }
          [Required]

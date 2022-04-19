@@ -28,7 +28,7 @@ namespace Api.Data.Implementations
     {
       
       return await _dataset.Include(m => m.Uf)
-                           .FirstOrDefaultAsync(m => m.CodIBGE.Equals(id));
+                           .FirstOrDefaultAsync(m => m.Id.Equals(id));
     }
   }
 }
