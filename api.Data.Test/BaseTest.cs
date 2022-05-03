@@ -25,7 +25,7 @@ namespace Api.Data.Test
         {
             var serviceCollection = new ServiceCollection();
             serviceCollection.AddDbContext<MyContext>(O =>
-                O.UseMySql($"Persist Security Info=True;localhost;Database={dataBaseName};User=root;Password=sandro777 "),
+                O.UseMySql($"Server=localhost;Port=3306;Database={dataBaseName};Uid=root;Pwd=sandro777"),
                     ServiceLifetime.Transient
             );
 
@@ -38,9 +38,9 @@ namespace Api.Data.Test
 
         public void Dispose()
         {
-              using (var context = ServiceProvider.GetService<MyContext>())
+            using (var context = ServiceProvider.GetService<MyContext>())
             {
-                 context.Database.EnsureDeleted();
+                context.Database.EnsureDeleted();
             }
         }
         

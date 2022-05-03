@@ -41,7 +41,6 @@ namespace application
               
                Environment.SetEnvironmentVariable("DB_CONNECTION", "Persist Security Info=True;Server=localhost;Port=3306;Database=dpAPI_Integration;Uid=root;Pwd=sandro777");
                Environment.SetEnvironmentVariable("DATABASE", "MYSQL");
-               Environment.SetEnvironmentVariable("DATABASE", "MYSQL");
                Environment.SetEnvironmentVariable("MIGRATION", "APLICAR");
                Environment.SetEnvironmentVariable("Audience", "ExemploAudience");
                Environment.SetEnvironmentVariable("Issuer", "ExemploIssuer");

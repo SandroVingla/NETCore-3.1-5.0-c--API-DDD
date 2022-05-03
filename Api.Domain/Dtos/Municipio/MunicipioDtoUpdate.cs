@@ -10,10 +10,10 @@ namespace Api.Domain.Dtos.Municipio
         
         [Required(ErrorMessage = "Nome do municipio é obrigatorio")]
         [StringLength(60, ErrorMessage = "Nome do municipio deve ser no máximo {1} caractere.")]
-        public string nome { get; set; }
+        public string Nome { get; set; }
 
         [Range(0, int.MaxValue, ErrorMessage = "Código IBGE inválido.")]
-        public string CodIBGE { get; set; }
+        public int CodIBGE { get; set; }
 
         [Required(ErrorMessage = "Código de UF é obrigatorio")]
         public Guid UfId { get; set; }

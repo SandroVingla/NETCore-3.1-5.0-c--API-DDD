@@ -10,7 +10,7 @@ namespace Api.Domain.Dtos.Municipio
         public string Nome { get; set; }
 
         [Range(0, int.MaxValue, ErrorMessage = "Código IBGE inválido.")]
-        public string CodIBGE { get; set; }
+        public int CodIBGE { get; set; }
 
         [Required(ErrorMessage = "Código de UF é obrigatório")]
         public Guid UfId { get; set; }

@@ -20,7 +20,7 @@ namespace Api.Data.Implementations
     {
       return await _dataset.Include(c => c.Municipio)
                         .ThenInclude(m => m.Uf)
-                        .FirstAsync(u => u.Cep.Equals(cep));
+                        .SingleOrDefaultAsync(u => u.Cep.Equals(cep));
     }
   }
 }

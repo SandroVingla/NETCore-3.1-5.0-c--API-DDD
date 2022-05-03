@@ -29,8 +29,8 @@ namespace api.Data.Test
                 UfEntity _entity = new UfEntity
                 {
                     Id = new Guid("e7e416de-477c-4fa3-a541-b5af5f35ccf6"),
-                     Sigla = "SP",
-                     Nome = "São Paulo"
+                    Sigla = "SP",
+                    Nome = "São Paulo"
                 };
                 var _registroExiste = await _repositorio.ExistAsync(_entity.Id);
                 Assert.True(_registroExiste);

@@ -47,10 +47,10 @@ namespace api.Data.Test
                 Assert.Equal(_entity.Nome, _registroAtualizado.Nome);
                 Assert.Equal(_entity.CodIBGE, _registroAtualizado.CodIBGE);
                 Assert.Equal(_entity.Ufid, _registroAtualizado.Ufid);
-                Assert.True(_registroCriado.Id == Guid.Empty);
+                Assert.False(_registroCriado.Id == Guid.Empty);
 
-                var _registroExiste = await _repositorio.SelectAsync(_registroAtualizado.Id);
-                //Assert.False(_registroExiste);
+                var _registroExiste = await _repositorio.ExistAsync(_registroAtualizado.Id);
+                Assert.True(_registroExiste);
 
                 var _registroSelecionado = await _repositorio.SelectAsync(_registroAtualizado.Id);
                 Assert.NotNull(_registroSelecionado);
