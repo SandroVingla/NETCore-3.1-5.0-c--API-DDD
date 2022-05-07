@@ -25,13 +25,13 @@ namespace Api.CrossCutting.Mappings
              CreateMap<MunicipioDto, MunicipioEntity>()
                 .ReverseMap();
 
-            CreateMap<MunicipioDtoCompleto, UserEntity>()
+            CreateMap<MunicipioDtoCompleto, MunicipioEntity>()
                 .ReverseMap();
 
-            CreateMap<MunicipioDtoCreateResult, UserEntity>()
+            CreateMap<MunicipioDtoCreateResult, MunicipioEntity>()
                 .ReverseMap();
 
-            CreateMap<MunicipioDtoUpdateResult, UserEntity>()
+            CreateMap<MunicipioDtoUpdateResult, MunicipioEntity>()
                 .ReverseMap();
             
             CreateMap<CepDto, CepEntity>()
