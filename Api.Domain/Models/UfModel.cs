@@ -3,7 +3,7 @@ namespace Api.Domain.Models
     public class UfModel : BaseModel
     {
         private string _sigla;
-        public string sigla
+        public string Sigla
         {
             get { return _sigla; }
             set { _sigla = value; }

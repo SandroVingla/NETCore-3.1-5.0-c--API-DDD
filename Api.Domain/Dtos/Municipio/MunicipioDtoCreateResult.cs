@@ -8,7 +8,7 @@ namespace Api.Domain.Dtos.Municipio
 
         public string Nome { get; set; }
         public int CodIBGE { get; set; }
-        public Guid UfId { get; set; }
-        public DateTime CreatAt { get; set; }
+        public Guid Ufid { get; set; }
+        public DateTime CreateAt { get; set; }
     }
 }

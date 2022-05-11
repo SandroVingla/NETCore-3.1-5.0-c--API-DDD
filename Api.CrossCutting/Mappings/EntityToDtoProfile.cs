@@ -22,6 +22,9 @@ namespace Api.CrossCutting.Mappings
             CreateMap<UfDto, UserEntity>()
                 .ReverseMap();
 
+            CreateMap<UfDto, UfEntity>()
+                .ReverseMap();
+
              CreateMap<MunicipioDto, MunicipioEntity>()
                 .ReverseMap();
 
