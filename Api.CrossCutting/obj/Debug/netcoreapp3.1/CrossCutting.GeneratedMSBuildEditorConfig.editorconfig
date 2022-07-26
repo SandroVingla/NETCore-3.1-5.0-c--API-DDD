@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CrossCutting
+build_property.ProjectDir = /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/

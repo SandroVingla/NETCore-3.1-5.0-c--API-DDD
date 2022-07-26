@@ -10,7 +10,6 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/Api.Application.Test.runtimeconfig.json
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/Api.Application.Test.runtimeconfig.dev.json
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/Api.Application.Test.dll
-/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/ref/Api.Application.Test.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/Api.Application.Test.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/AutoMapper.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -151,3 +150,5 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/obj/Debug/net5.0/ref/Api.Application.Test.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/obj/Debug/net5.0/Api.Application.Test.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/obj/Debug/net5.0/Api.Application.Test.genruntimeconfig.cache
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/application
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/obj/Debug/net5.0/refint/Api.Application.Test.dll

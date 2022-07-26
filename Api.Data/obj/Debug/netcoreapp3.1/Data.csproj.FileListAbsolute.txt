@@ -13,3 +13,4 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.GeneratedMSBuildEditorConfig.editorconfig

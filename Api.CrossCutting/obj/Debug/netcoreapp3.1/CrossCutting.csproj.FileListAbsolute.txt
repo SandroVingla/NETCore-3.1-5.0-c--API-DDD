@@ -14,3 +14,4 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Service.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/bin/Debug/netcoreapp3.1/Data.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.csproj.CopyComplete
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/obj/Debug/netcoreapp3.1/CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
