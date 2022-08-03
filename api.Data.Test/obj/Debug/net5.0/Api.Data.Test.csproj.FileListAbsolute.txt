@@ -147,3 +147,4 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/bin/Debug/net5.0/Faker.NETCore.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/bin/Debug/net5.0/de-DE/Faker.NETCore.resources.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/obj/Debug/net5.0/refint/Api.Data.Test.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Data.Test/bin/Debug/net5.0/xunit.runner.json

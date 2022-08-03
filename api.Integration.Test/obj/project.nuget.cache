@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NSNdZODJ6EQNDrhRisPROBZPlINrrvk/0r8slpl9F4r+cI80zd+XxhELlvtNeQRja+s3wCWJ7HBVrZD97mDZNw==",
+  "dgSpecHash": "GRx9Q14aDvlyPRQZh0U3A8eZ93+i30mv6Q8cb4xLoAuXDnzN7t6NZHr1mdJiJ4isChrMHojLDdqTsHRcaEFS1w==",
   "success": true,
   "projectFilePath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Integration.Test/Api.Integration.Test.csproj",
   "expectedPackageFiles": [
