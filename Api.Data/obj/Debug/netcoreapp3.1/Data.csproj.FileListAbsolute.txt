@@ -1,7 +1,6 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/bin/Debug/netcoreapp3.1/Data.deps.json
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/bin/Debug/netcoreapp3.1/Data.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/bin/Debug/netcoreapp3.1/Data.pdb
-/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.AssemblyReference.cache
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfoInputs.cache
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfo.cs
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CoreCompileInputs.cache
@@ -13,4 +12,5 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.AssemblyReference.cache
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/netcoreapp3.1/Data.GeneratedMSBuildEditorConfig.editorconfig

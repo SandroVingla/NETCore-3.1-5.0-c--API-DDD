@@ -8321,7 +8321,7 @@
     ]
   },
   "packageFolders": {
-    "/Users/alexsandrovingla/.nuget/packages/": {}
+    "/Users/sandrovingla/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -8329,11 +8329,11 @@
       "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/Api.Service.Test.csproj",
       "projectName": "Api.Service.Test",
       "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/Api.Service.Test.csproj",
-      "packagesPath": "/Users/alexsandrovingla/.nuget/packages/",
+      "packagesPath": "/Users/sandrovingla/.nuget/packages/",
       "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/alexsandrovingla/.nuget/NuGet/NuGet.Config"
+        "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

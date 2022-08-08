@@ -10,11 +10,11 @@
         "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/CrossCutting.csproj",
         "projectName": "CrossCutting",
         "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/CrossCutting.csproj",
-        "packagesPath": "/Users/alexsandrovingla/.nuget/packages/",
+        "packagesPath": "/Users/sandrovingla/.nuget/packages/",
         "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.CrossCutting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexsandrovingla/.nuget/NuGet/NuGet.Config"
+          "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -67,16 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -92,11 +82,11 @@
         "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/Data.csproj",
         "projectName": "Data",
         "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/Data.csproj",
-        "packagesPath": "/Users/alexsandrovingla/.nuget/packages/",
+        "packagesPath": "/Users/sandrovingla/.nuget/packages/",
         "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexsandrovingla/.nuget/NuGet/NuGet.Config"
+          "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -155,16 +145,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -180,11 +160,11 @@
         "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj",
         "projectName": "Domain",
         "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/Domain.csproj",
-        "packagesPath": "/Users/alexsandrovingla/.nuget/packages/",
+        "packagesPath": "/Users/sandrovingla/.nuget/packages/",
         "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexsandrovingla/.nuget/NuGet/NuGet.Config"
+          "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -223,16 +203,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -248,11 +218,11 @@
         "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/Api.Service.Test.csproj",
         "projectName": "Api.Service.Test",
         "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/Api.Service.Test.csproj",
-        "packagesPath": "/Users/alexsandrovingla/.nuget/packages/",
+        "packagesPath": "/Users/sandrovingla/.nuget/packages/",
         "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexsandrovingla/.nuget/NuGet/NuGet.Config"
+          "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -348,11 +318,11 @@
         "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/Service.csproj",
         "projectName": "Service",
         "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/Service.csproj",
-        "packagesPath": "/Users/alexsandrovingla/.nuget/packages/",
+        "packagesPath": "/Users/sandrovingla/.nuget/packages/",
         "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alexsandrovingla/.nuget/NuGet/NuGet.Config"
+          "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -398,16 +368,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

@@ -5692,7 +5692,7 @@
     ]
   },
   "packageFolders": {
-    "/Users/sandro/.nuget/packages/": {}
+    "/Users/sandrovingla/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5700,11 +5700,11 @@
       "projectUniqueName": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application/application.csproj",
       "projectName": "application",
       "projectPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application/application.csproj",
-      "packagesPath": "/Users/sandro/.nuget/packages/",
+      "packagesPath": "/Users/sandrovingla/.nuget/packages/",
       "outputPath": "/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sandro/.nuget/NuGet/NuGet.Config"
+        "/Users/sandrovingla/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5757,20 +5757,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[5.0.17, 5.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5779,7 +5765,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
       }
     }
   }
