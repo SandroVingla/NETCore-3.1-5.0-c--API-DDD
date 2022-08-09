@@ -3,50 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Api.Domain.Dtos.Municipio;
-using Api.Domain.Interfaces.Service.Municipio;
+using Api.Domain.Dtos.Cep;
+using Api.Domain.Interfaces.Service.Cep;
 using Microsoft.AspNetCore.Authorization;
-//using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Api.Application.Controllers
-{     
+namespace Api.Application.Controllers 
+{
+    
     [Route("api/[controller]")]
     [ApiController]
-
-    public class MunicipiosController: ControllerBase
+    public class CepsController : ControllerBase
     {
-        public IMunicipioService _service { get; set; }
+        public ICepService _service { get; set; }
 
-        public MunicipiosController(IMunicipioService service)
+        public CepsController(ICepService service)
         {
             _service = service;
         }
 
         [Authorize("Bearer")]
         [HttpGet]
+        [Route("{id}", Name = "GetCepWithId")]
 
-        public async Task <ActionResult> GetAll()
-        {
-            if(!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            try
-            {
-                return Ok(await _service.GetAll());
-            }
-            catch (ArgumentException e)
-            {
-                
-                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
-            }
-        }
-        [Authorize("Bearer")]
-        [HttpGet]
-        [Route("{id}", Name = "GetMunicipioWithId")]
-
-        public async Task <ActionResult> Get(Guid id)
+        public async Task<ActionResult> Get(Guid id)
         {
             if(!ModelState.IsValid)
             {
@@ -61,18 +41,18 @@ namespace Api.Application.Controllers
                 }
                 return Ok(result);
             }
-            catch (ArgumentException e)
+            catch(ArgumentException e)
             {
-                
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
 
-        [Authorize("Bearer")]
-        [HttpGet]
-        [Route("Complete{id}")]
 
-        public async Task <ActionResult> GetCompleteById(Guid id)
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("byCep/{Cep}")]
+
+        public async Task<ActionResult> Get(String cep)
         {
             if(!ModelState.IsValid)
             {
@@ -80,42 +60,15 @@ namespace Api.Application.Controllers
             }
             try
             {
-                var result = await _service.GetCompleteById(id);
+                var result = await _service.Get(cep);
                 if(result == null)
                 {
                     return NotFound();
                 }
                 return Ok(result);
             }
-            catch (ArgumentException e)
+            catch(ArgumentException e)
             {
-                
-                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
-            }
-        }
-        
-        [Authorize("Bearer")]
-        [HttpGet]
-        [Route("byIBGE/{codigoIBGE}")]
-
-        public async Task <ActionResult> GetCompleteByIBGE(int codigoIBGE)
-        {
-            if(!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            try
-            {
-                var result = await _service.GetCompleteByIBGE(codigoIBGE);
-                if(result == null)
-                {
-                    return NotFound();
-                }
-                return Ok(result);
-            }
-            catch (ArgumentException e)
-            {
-                
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
@@ -123,42 +76,19 @@ namespace Api.Application.Controllers
         [Authorize("Bearer")]
         [HttpPost]
 
-        public async Task <ActionResult> Post([FromBody] MunicipioDtoCreate dtoCreate)
+        public async Task<ActionResult> Post([FromBody] CepDtoCreate dtoCreate)
         {
             if(!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+
             try
             {
                 var result = await _service.Post(dtoCreate);
                 if(result != null)
                 {
-                    return Created(new Uri(Url.Link("GetMunicipioWithId", new { id = result.Id})), result);
-                }
-                return Ok(result);
-            }
-            catch (ArgumentException e)
-            {
-                
-                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
-            }
-        }
-        [Authorize("Bearer")]
-        [HttpPut]
-
-        public async Task <ActionResult> Put([FromBody] MunicipioDtoUpdate dtoUpdate)
-        {
-            if(!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            try
-            {
-                var result = await _service.Put(dtoUpdate);
-                if(result != null)
-                {
-                    return Ok(result);
+                    return Created(new Uri(Url.Link("GetCepWithId", new {id = result.Id})), result);
                 }
                 else
                 {
@@ -167,11 +97,56 @@ namespace Api.Application.Controllers
             }
             catch (ArgumentException e)
             {
-                
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
 
+        [Authorize("Bearer")]
+        [HttpPut]
 
+        public async Task<ActionResult> Put ([FromBody] CepDtoUpdate dtoUpdate)
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                var result = await _service.Put(dtoUpdate);
+                if(result == null)
+                {
+                    return BadRequest();
+                }
+            
+                return Ok(result);
+                
+                
+            }
+            catch(ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
+        
+        [Authorize("Bearer")]
+        [HttpDelete("{id")]
+
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                return Ok(await _service.Delete(id));
+                   
+            }
+            catch(ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
     }
 }
