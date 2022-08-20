@@ -150,4 +150,4 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Service.Test/bin/Debug/net5.0/Faker.NETCore.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Service.Test/bin/Debug/net5.0/de-DE/Faker.NETCore.resources.dll
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Service.Test/bin/Debug/net5.0/xunit.runner.json
-/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Service.Test/obj/Debug/net5.0/refint/Api.Service.Test.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Service.Test/bin/Debug/net5.0/ref/Api.Service.Test.dll

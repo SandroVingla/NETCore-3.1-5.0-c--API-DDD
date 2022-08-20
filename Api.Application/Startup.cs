@@ -144,12 +144,13 @@ namespace application
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => {c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com AspNetCore 3.1");
-                c.RoutePrefix = string.Empty;
-                
-                });
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com AspNetCore 3.1");
+            c.RoutePrefix = string.Empty;
+            
+            });
+        
 
             app.UseRouting();
 
