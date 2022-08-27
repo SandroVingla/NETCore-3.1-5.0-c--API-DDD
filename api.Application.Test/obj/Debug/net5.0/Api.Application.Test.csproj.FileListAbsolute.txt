@@ -151,4 +151,4 @@
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/obj/Debug/net5.0/Api.Application.Test.pdb
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/obj/Debug/net5.0/Api.Application.Test.genruntimeconfig.cache
 /Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/xunit.runner.json
-/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Application.Test/bin/Debug/net5.0/ref/Api.Application.Test.dll
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/api.Application.Test/bin/Debug/net5.0/ref/Api.Application.Test.dll
