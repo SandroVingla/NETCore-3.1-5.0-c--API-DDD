@@ -7,6 +7,7 @@ using Api.Domain.Interfaces;
 using Api.Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace Api.CrossCutting.DependencyInjection
 {
@@ -30,7 +31,11 @@ namespace Api.CrossCutting.DependencyInjection
                     servicecollection.AddDbContext<MyContext>(
                     //options => options.UseSqlServer("Server=localhost;Initial Catalog=dpapi;MultipleActiveResultSets=true;User ID=sa;Password=Sandro777")
                     
-                    options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"))
+                    options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"),
+                    new MySqlServerVersion(new Version(8,0,21)),
+                        mySqlOptions => mySqlOptions
+                            .CharSetBehavior(CharSetBehavior,NeverAppend)
+                    )
                 );
 
             }

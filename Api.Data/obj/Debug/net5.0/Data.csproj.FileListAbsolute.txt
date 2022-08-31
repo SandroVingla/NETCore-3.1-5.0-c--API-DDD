@@ -1,0 +1,5 @@
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/net5.0/Data.csproj.AssemblyReference.cache
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/net5.0/Data.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/net5.0/Data.AssemblyInfoInputs.cache
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/net5.0/Data.AssemblyInfo.cs
+/Volumes/HDProgamacao/programacao/curso_dotnet_udemy/curso_api_netcore/src/Api.Data/obj/Debug/net5.0/Data.csproj.CoreCompileInputs.cache
